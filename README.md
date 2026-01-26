@@ -1,6 +1,7 @@
 # Classification-BP-stages
 This repository created for classification the blood pressure stages using features extracted from the raw PPG signals (link of published article). We used two datasets to evaluate the proposed methodology under varied and realistic conditions. 
 They are:
+
 1- PPG-BP dataset: it contains 657 segments, 4 classes (Normal, Prehypertension, Hypertension stage 1, Hypertension stage 2).
 
 2- PulseDB dataset: it contains 283773 segments, 3 classes (Normal, Prehypertension, Hypertension)
