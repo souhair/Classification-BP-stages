@@ -1,5 +1,6 @@
 clear; close all; clc;
 fprintf('=== DATASET PROCESSING ===\n');
+dataset_path = 'your dataset path';
 [all_datasets_features, dataset_info] = process_large_dataset(dataset_path);
 fprintf('\n=== RUNNING COMPREHENSIVE ANALYSIS ===\n\n');
 
@@ -52,4 +53,5 @@ for i = 1:length(unique_classes)
 end
 data_table = array2table([X, y], 'VariableNames', [feature_names, {'target'}]);
 writetable(data_table, 'complete_dataset.csv', 'WriteMode', 'overwrite', 'Delimiter', ',');
+
 
